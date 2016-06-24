@@ -1,7 +1,12 @@
 package core;
 
+import org.apache.log4j.Logger;
+
+
+
 /**
- * Created by felipe on 6/22/2016.
+ * Created by Artur on 4/13/2016.
  */
 public class MyLogger {
+    public static Logger log = Logger.getLogger(MyLogger.class);
 }
